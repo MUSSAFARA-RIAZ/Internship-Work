@@ -1,72 +1,75 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
     <style>
-        #boxes {
+        #boxes{
             display: grid;
-            grid-template-columns:40% 40%;
-            grid-template-rows: 60px 250px;
-           
-        }
-      
-        img {
-            width: 400px;
-        }
-        div {
-            text-align: justify;
-            word-spacing: 0.090cm;
-            justify-content: space-around;
-        }
+         grid-template-columns: 50% 50%;
+         grid-template-rows:5% 35% 40% ;
+        
 
-        img {
-            float: left;
-            margin-right: 30px;
-            width: 550px;
-            height: 250px;
-        }
 
+        }
+        
         p{
 
-            text-align: justify;
-            text-justify: inter-word;
-            word-spacing: 0.08cm;
-            width: 600px;
+text-align: justify;
+text-justify: inter-word;
+word-spacing: 0.08cm;
 
-            font-family: 'Poppins';
-            font-size: 15px;
-            padding: 20px;
-            color: #333333;
-        }
 
-        h1 {
-            color: #015885;
+font-family: 'Poppins';
+font-size: 15px;
+padding: 20px;
+color: #333333;
+}
+li{
+    text-align: justify;
+text-justify: inter-word;
+word-spacing: 0.08cm;
+
+
+font-family: 'Poppins';
+font-size: 14px;
+padding: 20px;
+color: #333333;
+
+}
+       
+        #img{
             text-align: center;
-            font-family: "Segoe UI", Arial, sans-serif;
-            font-weight: 400;
-            margin: 10px 0;
         }
-        #feature-pt{
-           position: relative;
-           top: 190px;
+        img{
+            width:100%;
+            max-width: 90%;
+            
+            height: 250px;
+       
+        
+
         }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
     </style>
 </head>
-
 <body>
     <div id="boxes">
-        <div id="header">
+        <div  class="border-class" id="header">
             <h1>Smart Irrigation System</h1>
         </div>
-        <div id="img">
-            <img src="https://smartcitylab.neduet.edu.pk/images/projects/smart-irrigation-system.jpg" alt="">
+        <div class="border-class">
+            <h1>Features</h1>
         </div>
-        <div id="desc">
+        <div class="border-class" id="desc">
             <p> Smart Irrigation System is the latest IoT technology which is helpful and leads to ease of farming.
                 The engineers at the Smart City Lab has developed the IoT devices that will improve the process of Smart
                 Irrigation. Approximately, 70% of the water withdrawn from various fresh water sources is used for
@@ -80,8 +83,8 @@
                 of the rapid urbanization. The system will help to get farmers good yield.
             </p>
         </div>
-        <div id="features">
-            <div id="feature-pt">
+        <div class="border-class" id="features">
+          
             <ol>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
                 <li>F2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
@@ -89,9 +92,18 @@
                 <li>F4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
                 <li>F5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
             </ol>
+   
         </div>
+      
+   
+       
+        
+        
+        <div class="border-class" id="img">
+            <img src="https://smartcitylab.neduet.edu.pk/images/projects/smart-irrigation-system.jpg" alt="">
         </div>
+       
     </div>
+    
 </body>
-
 </html>
