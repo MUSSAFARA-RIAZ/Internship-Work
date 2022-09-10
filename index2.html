@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
         #boxes{
             display: grid;
-         grid-template-columns: 50% 50%;
-         grid-template-rows:5% 35% 40% ;
+         grid-template-columns: 48% 49%;
+         grid-template-rows:5% 35% 30% ;
+         width: 75%;
+       margin: auto;
+        
+         
         
 
 
         }
-        
+        i{
+            margin: 10px;
+        }
+        li{
+            list-style-type: none;
+        }
         p{
 
 text-align: justify;
@@ -24,8 +34,9 @@ word-spacing: 0.08cm;
 
 font-family: 'Poppins';
 font-size: 15px;
-padding: 20px;
+
 color: #333333;
+
 }
 li{
     text-align: justify;
@@ -36,33 +47,44 @@ word-spacing: 0.08cm;
 font-family: 'Poppins';
 font-size: 14px;
 padding: 19px;
-color: #333333;
+color: white;
+background-color: #7c7373;
 
 
 }
+i{
+    color: #98b2c9;
+}
        
         #img{
+          
             text-align: center;
         }
         img{
             width:100%;
             max-width: 90%;
-            
+            box-shadow: 10px 10px 5px #555555;            
             height: 250px;
-       
-        
-
         }
         h1{
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
+        #ma{
+            text-align: center;
+        }
+      #desc{
+        margin-top: 11px;
+      }
+      
+     
+       
 
     </style>
 </head>
 <body>
+    <div id="ma">
     <div id="boxes">
         <div  class="border-class" id="header">
             <h1>Smart Irrigation System</h1>
@@ -87,11 +109,11 @@ color: #333333;
         <div class="border-class" id="features">
           
             <ol>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
-                <li>F2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
-                <li>F3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
-                <li>F4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
-                <li>F5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
+                <li><i class="fa-solid fa-star"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
+                <li><i class="fa-solid fa-star"></i>F2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
+                <li><i class="fa-solid fa-star"></i>F3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
+                <li><i class="fa-solid fa-star"></i>F4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
+                <li><i class="fa-solid fa-star"></i>F5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto, provident ipsa quae corrupti, illo nesciunt commodi officia fugit laborum deserunt veniam optio error esse?</li>
             </ol>
    
         </div>
@@ -105,6 +127,7 @@ color: #333333;
         </div>
        
     </div>
+</div>
     
 </body>
 </html>
